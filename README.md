@@ -60,3 +60,7 @@ Light/Dark theme toggle (optional)
 Loader and error state handling
 
 Responsive design for mobile and desktop
+
+# Author
+Name: Bipin Kumar Choubey
+GitHub: @Bipin2004
