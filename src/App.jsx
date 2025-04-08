@@ -37,6 +37,7 @@ const App = () => {
     }
   };
 
+  // Get data from your own location
   const handleGeolocation = () => {
     if (navigator.geolocation) {
       setLoading(true);
@@ -70,6 +71,7 @@ const App = () => {
     }
   };
 
+  // Gives the background image according to the weather condition. Default image is used if no weather data is available.
   const getBackgroundImage = () => {
     if (!weatherData) return 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80';
     const condition = weatherData.weather[0].main.toLowerCase();
@@ -87,6 +89,7 @@ const App = () => {
     }
   };
 
+  // Toggles dark mode and dispatches a custom event to notify other components that dark mode has changed
   const toggleDarkMode = () => {
     setIsDarkMode((prev) => {
       const newMode = !prev;
