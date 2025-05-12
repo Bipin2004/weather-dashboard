@@ -107,8 +107,8 @@ const App = () => {
       }}
     >
       <div className="w-full max-w-4xl flex flex-col items-center">
-        <div className="flex flex-col sm:flex-row justify-between items-center w-full mb-4 sm:mb-6">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white dark:text-gray-200 drop-shadow-lg mb-4 sm:mb-0">
+        <div className="flex flex-col sm:flex-row justify-between items-center w-full mb-4 sm:mb-6 -mt-16 sm:-mt-20">
+          <h1 className="flex-1 text-center text-3xl sm:text-4xl md:text-5xl font-bold text-white dark:text-gray-200 drop-shadow-lg mb-4 sm:mb-0">
             Weather Dashboard
           </h1>
           <button
